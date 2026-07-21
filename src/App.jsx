@@ -1039,10 +1039,10 @@ function Projects(){
 
 // ── Experience ──
 const EXP=[
-  {period:"May 2025–Present",role:"Software Engineer",company:"American Express",pts:["Building production-grade software at one of the world's leading financial services companies."]},
+  {period:"May 2025–Present",role:"Software Engineer",company:"Cigna Healthcare",pts:["Building production-grade software at one of the world's leading financial services companies."]},
   {period:"May–Dec 2025",role:"Teaching Assistant",company:"UMass Boston",pts:["TA for Advanced Data Structures, Computer Architecture, Database Application Development.","Weekly lab sessions, office hours, rigorous graded feedback."]},
   {period:"May–Oct 2025",role:"Full Stack Developer Intern",company:"Codec Technologies India",pts:["Built responsive UIs with HTML5, CSS3, AngularJS and Java Spring MVC backends.","RESTful & SOAP APIs, AWS EC2/S3, Agile sprints via Jira."]},
-  {period:"Jul 2022–Dec 2023",role:"Full Stack Engineer",company:"Tata Consultancy Services",pts:["Spring Boot microservices for IAM: RBAC, secure service-to-service comms.","CI/CD via Jenkins, Docker, Helm, Terraform, Kubernetes on Azure DevOps.","Code reviews, design docs, L3 production incident response."]},
+  {period:"Jul 2022–Dec 2023",role:"Full Stack Engineer",company:"HDFC BANK",pts:["Spring Boot microservices for IAM: RBAC, secure service-to-service comms.","CI/CD via Jenkins, Docker, Helm, Terraform, Kubernetes on Azure DevOps.","Code reviews, design docs, L3 production incident response."]},
 ];
 function ExpItem({period,role,company,pts,delay}){
   const ref=useRef(null);const[v,sV]=useState(false);
