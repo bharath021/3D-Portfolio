@@ -148,7 +148,7 @@ const glass=(ex={})=>({background:"rgba(13,17,23,0.78)",border:"1px solid rgba(0
 
 // ── Hero ──
 const HERO_PROJS=[{icon:"🎓",title:"Capstone Hub",stack:"React · Firebase",live:"https://creative-expression-production.up.railway.app/",github:"https://github.com/bharath021/capstone-hub"},{icon:"🛒",title:"E-Commerce Microservices",stack:"Spring Boot · K8s",github:"https://github.com/bharath021/ecommerce-microservices"},{icon:"🤖",title:"AI Job Recommender",stack:"Python · TensorFlow",github:"https://github.com/bharath021/ai-job-recommender"}];
-const HERO_EXP=[{role:"Software Engineer",co:"American Express",period:"2025–Present",color:A},{role:"Full Stack Engineer",co:"TCS",period:"2022–2023",color:A2},{role:"Teaching Assistant",co:"UMass Boston",period:"2025",color:A3}];
+const HERO_EXP=[{role:"Software Engineer",co:"Cigna Healthcare ",period:"2025–Present",color:A},{role:"Full Stack Engineer",co:"HDFC BANK ",period:"2022–2023",color:A2},{role:"Teaching Assistant",co:"UMass Boston",period:"2025",color:A3}];
 
 function Hero(){
   const[tick,sT]=useState(0);const[hovP,sHP]=useState(null);const[hovE,sHE]=useState(null);const[mouse,sM]=useState({x:0,y:0});const heroRef=useRef(null);
@@ -175,7 +175,7 @@ function Hero(){
             <strong style={{color:TX}}>Full-Stack Engineer</strong><span style={{color:MU}}> &amp; </span><strong style={{color:TX}}>AI-Augmented Builder</strong>
           </div>
           <div style={{fontSize:"0.78rem",color:MU,marginBottom:10,lineHeight:1.7}}>
-            Software Engineer @ <span style={{color:A}}>American Express</span><br/>MS Computer Science · UMass Boston · <span style={{color:GL}}>GPA 4.0</span>
+            Software Engineer @ <span style={{color:A}}>Cigna Healthcare </span><br/>MS Computer Science · UMass Boston · <span style={{color:GL}}>GPA 4.0</span>
           </div>
           <div style={{display:"flex",gap:6,flexWrap:"wrap",marginBottom:34}}>
             {["Java","React","Spring Boot","AWS","Docker","Python"].map(s=><span key={s} style={{fontSize:"0.6rem",padding:"4px 10px",background:"rgba(0,217,255,0.07)",border:"1px solid rgba(0,217,255,0.18)",borderRadius:4,color:A}}>{s}</span>)}
@@ -235,7 +235,7 @@ function Hero(){
             <div style={{fontSize:"0.56rem",color:A,letterSpacing:"0.15em",textTransform:"uppercase",marginBottom:7}}>Currently</div>
             <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:7}}>
               <div style={{width:8,height:8,borderRadius:"50%",background:A,boxShadow:`0 0 8px ${A}`,flexShrink:0,animation:"pulse 2s infinite"}}/>
-              <span style={{fontSize:"0.7rem",fontWeight:700,color:TX}}>American Express</span>
+              <span style={{fontSize:"0.7rem",fontWeight:700,color:TX}}>Cigna Healthcare </span>
             </div>
             <div style={{fontSize:"0.61rem",color:MU,lineHeight:1.5}}>Software Engineer<br/><span style={{color:A3}}>Building production systems</span></div>
           </div>
@@ -269,9 +269,9 @@ function ValueProps(){
       <FadeIn delay={.1}><ST>My 3 Core Value Propositions</ST></FadeIn>
       <FadeIn delay={.2}>
         <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(270px,1fr))",gap:2,background:BD,border:`1px solid ${BD}`}}>
-          <VPCard num="01" title="Enterprise Full-Stack Depth" desc="Built and shipped production systems at TCS — IAM microservices, CI/CD pipelines, and L3 incident response. I own the full lifecycle: design, build, deploy, maintain."/>
+          <VPCard num="01" title="Enterprise Full-Stack Depth" desc="Built and shipped production systems at HDFC BANK — IAM microservices, CI/CD pipelines, and L3 incident response. I own the full lifecycle: design, build, deploy, maintain."/>
           <VPCard num="02" title="AI-Augmented Developer" desc="Certified in Generative AI, ChatGPT API, and AWS architecture. Built AI chatbots and data pipelines positioned at the intersection of traditional engineering and emerging AI."/>
-          <VPCard num="03" title="Collaborative Team Multiplier" desc="Across TCS, Codec, OctaNet, and UMass, I've led code reviews, mentored students, and delivered under Agile sprint pressure. I make teams better, not just codebases."/>
+          <VPCard num="03" title="Collaborative Team Multiplier" desc="Across HDFC BANK, Codec, OctaNet, and UMass, I've led code reviews, mentored students, and delivered under Agile sprint pressure. I make teams better, not just codebases."/>
         </div>
       </FadeIn>
     </Sec>
