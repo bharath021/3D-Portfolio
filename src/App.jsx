@@ -1277,7 +1277,7 @@ function Projects(){
 // ── Experience ──
 const EXP=[
   {period:"May–Dec 2025",role:"Teaching Assistant",company:"UMass Boston",pts:["TA for Advanced Data Structures, Computer Architecture and Database Application Development.","Weekly lab sessions, office hours and graded feedback for 150+ students."]},
-  {period:"May–Oct 2025",role:"Full Stack Developer Intern",company:"Codec Technologies India",pts:["Built responsive UIs with HTML5, CSS3, AngularJS and Java Spring MVC backends.","RESTful & SOAP APIs, AWS EC2/S3, Agile sprints tracked via Jira."]},
+  {period:"May–Oct 2025",role:"Full Stack Developer Intern",company:"Codec Technologies Remote",pts:["Built responsive UIs with HTML5, CSS3, AngularJS and Java Spring MVC backends.","RESTful & SOAP APIs, AWS EC2/S3, Agile sprints tracked via Jira."]},
 ];
 function ExpItem({period,role,company,pts,delay}){
   const ref=useRef(null);const[v,sV]=useState(false);
